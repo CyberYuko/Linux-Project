@@ -1,0 +1,39 @@
+Linux-SOC-IR-Lab/
+│
+├── README.md
+│
+├── 01_Hardening/
+│   ├── hardening_steps.md
+│   ├── ssh_config_before.txt
+│   ├── ssh_config_after.txt
+│   ├── ufw_rules.txt
+│   └── fail2ban_config.md
+│
+├── 02_Attack_Scenarios/
+│   ├── brute_force_simulation.md
+│   ├── reverse_shell_attack.md
+│   ├── malicious_cronjob.md
+│   └── privilege_escalation_attempt.md
+│
+├── 03_Incident_Response/
+│   ├── IR_walkthrough_bruteforce.md
+│   ├── IR_walkthrough_reverse_shell.md
+│   ├── IR_walkthrough_priv_esc.md
+│   └── IR_walkthrough_cronjob.md
+│
+├── 04_Log_Analysis/
+│   ├── auth_log_analysis.md
+│   ├── syslog_analysis.md
+│   ├── network_logs.md
+│   └── suspicious_activity_summary.md
+│
+├── 05_Bash_Scripts/
+│   ├── monitor_connections.sh
+│   ├── log_parser.sh
+│   ├── user_activity_monitor.sh
+│   └── suspicious_process_alert.sh
+│
+└── 06_Playbooks/
+    ├── linux_incident_response_playbook.md
+    ├── linux_threat_hunting_checklist.md
+    └── linux_privilege_escalation_checklist.md
